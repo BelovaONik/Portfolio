@@ -1,0 +1,46 @@
+body {
+  background-image: url(img-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 0.8rem;
+  color: #000000;
+}
+button {
+  background-color: #4c8af5;
+  border: #4c8af5;
+  line-height: 2rem;
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border: 0.03rem solid;
+  border-color: #4c8af5;
+}
+li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+li a :hover {
+  color: #f01f4c;
+  font-weight: bold;
+}
+.curse {
+  display: flex;
+}
+.article {
+  display: flex;
+}
+h2 {
+  color: #000000;
+}
